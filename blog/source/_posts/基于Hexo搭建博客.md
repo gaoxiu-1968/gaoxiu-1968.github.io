@@ -137,3 +137,11 @@ https://butterfly.js.org/posts/21cfbf15/#%E5%AE%89%E8%A3%9D
 cover: 图片地址(在编写markdown页面的时候使用)
 ```
 
+#### 网址图标
+
+> butterfly 主题加载图标地址是/favicon.png ,但是自带的图标图片却在/img目录下，找不到图片而不显示图标
+
+解决方法：
+
+​	把favicon.png直接放在source目录下，生成页面时，会放到根目录下！
+
