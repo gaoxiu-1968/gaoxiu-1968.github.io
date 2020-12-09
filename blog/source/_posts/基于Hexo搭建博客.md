@@ -145,3 +145,10 @@ cover: 图片地址(在编写markdown页面的时候使用)
 
 ​	把favicon.png直接放在source目录下，生成页面时，会放到根目录下！
 
+#### 自定域
+
+> github上每次提交代码,自定义域都会消失,需要重新设置
+
+解决方法:
+    在source中新建CNAME文件里面写入自己的域名用来替换github中Custom domain的设置
+
