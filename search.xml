@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>json参数格式不对引发的异常</title>
+      <link href="2020/12/10/json%E5%8F%82%E6%95%B0%E6%A0%BC%E5%BC%8F%E4%B8%8D%E5%AF%B9%E5%BC%95%E5%8F%91%E7%9A%84%E5%BC%82%E5%B8%B8/"/>
+      <url>2020/12/10/json%E5%8F%82%E6%95%B0%E6%A0%BC%E5%BC%8F%E4%B8%8D%E5%AF%B9%E5%BC%95%E5%8F%91%E7%9A%84%E5%BC%82%E5%B8%B8/</url>
+      
+        <content type="html"><![CDATA[<p><strong>问题:</strong></p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Caused by: com.fasterxml.jackson.core.JsonParseException: <span class="function">Unexpected <span class="title">character</span> <span class="params">(<span class="string">&#x27; &#x27;</span> (code <span class="number">160</span>)</span>): was</span></span><br></pre></td></tr></table></figure><p>类似于这种错误都是传递参数格式不对,jackson无法正常解析json-&gt;object报出的错误.</p><p>重新检索数据格式就可以解决该类问题!</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 错误集 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java,springmvc </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>基于Hexo搭建博客</title>
       <link href="2020/12/08/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
       <url>2020/12/08/%E5%9F%BA%E4%BA%8EHexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
