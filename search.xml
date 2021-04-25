@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>类型转换</title>
+      <link href="2021/04/25/%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/"/>
+      <url>2021/04/25/%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/</url>
+      
+        <content type="html"><![CDATA[<h3 id="常用类型"><a href="#常用类型" class="headerlink" title="常用类型"></a>常用类型</h3><h4 id="基本类型"><a href="#基本类型" class="headerlink" title="基本类型"></a>基本类型</h4><ul><li>int</li><li>long</li><li>double</li></ul><h4 id="引用数据类型"><a href="#引用数据类型" class="headerlink" title="引用数据类型"></a>引用数据类型</h4><ul><li>Integer</li><li>Long</li><li>Double</li><li>BigInteger</li><li>BigDecimal</li><li>String</li><li>List</li><li>Map</li><li>Array</li></ul><h3 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h3><h4 id="基本数据类型"><a href="#基本数据类型" class="headerlink" title="基本数据类型"></a>基本数据类型</h4><ul><li>byte</li><li>short</li><li>int</li><li>long</li><li>float</li><li>double</li><li>boolean</li><li>char</li></ul><h4 id="引用数据类型-1"><a href="#引用数据类型-1" class="headerlink" title="引用数据类型"></a>引用数据类型</h4><h5 id="包装类"><a href="#包装类" class="headerlink" title="包装类"></a>包装类</h5><ul><li><p>Byte</p></li><li><p>Short</p></li><li><p>Integer</p></li><li><p>Long</p></li><li><p>Float</p></li><li><p>Double</p></li><li><p>Boolean</p></li><li><p>Character</p></li><li><p>BigInteger</p></li><li><p>BigDecimal</p></li></ul><h5 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h5><ul><li><p>String</p><p>字符串是一种非常独特的数据类型</p></li><li><p>List</p></li><li><p>Map</p></li><li><p>Array</p></li></ul><h3 id="类型转换"><a href="#类型转换" class="headerlink" title="类型转换"></a>类型转换</h3><h4 id="基本数据类型转基本数据类型"><a href="#基本数据类型转基本数据类型" class="headerlink" title="基本数据类型转基本数据类型"></a>基本数据类型转基本数据类型</h4><ul><li><p>隐式转换</p><p>扩大原始转换</p><p>规则： byte&lt;short&lt;int&lt;long&lt;float&lt;double</p><p>布尔和字符一般不参与转换！</p></li><li><p>显示转换</p><p>缩小原始转换</p><p>也就是上面的翻过来转换，都需要强转</p></li></ul><h4 id="基本数据类型和包装类互转"><a href="#基本数据类型和包装类互转" class="headerlink" title="基本数据类型和包装类互转"></a>基本数据类型和包装类互转</h4><ul><li><p>自动装箱</p><p>基本类型隐式转换成对应的包装类</p></li><li><p>自动拆箱</p><p>包装类隐式转换成对应的基本数据类型</p></li></ul><h4 id="基本数据类型和字符串互转"><a href="#基本数据类型和字符串互转" class="headerlink" title="基本数据类型和字符串互转"></a>基本数据类型和字符串互转</h4><ul><li><p>基本数据类型转字符串</p><ol><li>任何基本类型和字符串相加结果为字符串</li><li>String.valueOf()方法可以把基本数据类型转换成字符串</li></ol></li><li><p>字符串转基本类型</p></li></ul><p>字符串转基本类型就是转换成对应的包装类，使用的方法就是包装类内封装的方法</p><h4 id="包装类和字符串互转"><a href="#包装类和字符串互转" class="headerlink" title="包装类和字符串互转"></a>包装类和字符串互转</h4><p>包装类和字符串之间不能强制转换<br>只能通过对应的类方法进行转换，如果类方法不支持这个类型转换，就不能进行转换。</p><h3 id="强制转换逻辑"><a href="#强制转换逻辑" class="headerlink" title="强制转换逻辑"></a>强制转换逻辑</h3><p>一个超类能做的东西,其子类也能做,而一个子类能做的东西超类不一定能做,所以就有这样的规则:<br>(1).一个子类的对象可以强制转换成为其超类的对象;<br>(2).一个超类的对象如果强制转换成子类的对象将在运行的时候有异常抛出;<br>(3).如果不是同一继承树上的类强制转换,将产生编译错误.</p><ul><li>参考文档<br><a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-5.html">https://docs.oracle.com/javase/specs/jls/se8/html/jls-5.html</a></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>递归:获取整棵树</title>
       <link href="2020/12/16/%E9%80%92%E5%BD%92-%E8%8E%B7%E5%8F%96%E6%95%B4%E6%A3%B5%E6%A0%91/"/>
       <url>2020/12/16/%E9%80%92%E5%BD%92-%E8%8E%B7%E5%8F%96%E6%95%B4%E6%A3%B5%E6%A0%91/</url>
