@@ -1,7 +1,7 @@
 ---
 title: json参数格式不对引发的异常
 date: 2020-12-10 22:38:35
-tags: java,springmvc
+tags: [java,springmvc]
 categories: 错误集
 cover: 
 

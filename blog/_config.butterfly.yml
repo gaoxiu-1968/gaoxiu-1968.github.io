@@ -84,7 +84,7 @@ category_img: https://w.wallhaven.cc/full/m9/wallhaven-m9pzz9.jpg # category 子
 
 #头像
 avatar:
-  img: https://dss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2939425441,2024243876&fm=111&gp=0.jpg
+  img: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBVvKqr15ASaRQVL31A1fVuN9ZOknokvR8sw&usqp=CAU
   effect: false # 头像会一直转圈
 
 #页脚
